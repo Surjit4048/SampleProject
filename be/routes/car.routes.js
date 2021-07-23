@@ -1,5 +1,5 @@
 module.exports = app => {
-    const cars = require("../controllers/carController.js");
+    const cars = require("../controllers/car.controller.js");
     let router = require("express").Router();
 
     // Retrieve all cars
